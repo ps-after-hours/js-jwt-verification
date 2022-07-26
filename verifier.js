@@ -33,7 +33,8 @@ function getJwkByKid(url, kid) {
     let issResponse;
   
     //Mock the response for the issuer
-    // issResponse = await axios(iss);
+    // this matches the Keycloak url for the Keycloak's JWK
+    // issResponse = await axios(iss + "/protocol/openid-connect/certs");
     issResponse = mockedResponse;
   
     for (let index = 0; index < issResponse.data.keys.length; index++) {
