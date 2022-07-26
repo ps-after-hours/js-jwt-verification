@@ -12,12 +12,12 @@ const jwk = {
       "verify"
     ],
     "kty": "RSA",
-    "n": "txICBhuqPJ709Hyg-tvpYNWFJ7h96_awNgcj-NRPS9UF2OtGj13B-dqIHAHZZKtg3P9i7W4dwvTdfwhj3B1DevwufXGHDfj-Y4bA4JSbkdHz7Yi1xsCaiWXdWA1B-_vPByMD655zZTNF-fxvc7EqY82UnZk0U0-kOK-fj_dg1244NuZRy8djHL97ivbvfKkDyju-PDzo2mkRB3aMOoYdLgEnbIzVBpkaNvmqKw-PDuX7O9R6CIvzlPt8R50F5cn1YfgdwVxelHTJ5CiXsGIqmq7MEJu0hJ5IMfMSpU75jwQ9benDiFbXny0jqZ9tMhCiX1ncKY7xjJES28vIIcu_cF6pu9S0iUs66ldf1szxZdR8UF0aCgftUKX4G-gn4g7J44Q2pn33fCNN0xOgBWqYYinUB54udggJPjoihV7eGKrhCnunWmM_bZNAapsYUlKoPnk9B4pleHyJs-3kzZ9MqfGfZZc1lSjOm-I2JkWmMG2H9Bamuk4J949ecgrVkfIl",
+    "n": "tGOiczNG_qXJTjzQtWNHVl54oHQS0CaPgFeQCEJ_oRe4jCX2mCuxF86-rGpphBenFG3ykoBIor1ngvvg3a1QkkbhtDOnLsc864KsvFceRv8TuHGuxhebE4s4zrzs49ZlLMEE26ZDR_BL8oxspuYa_61nBylojA7jZU4S8iDKhyFRw-c4rXBcu3xwH9oeH6PjbYrdKzgCE5CVS0tnXG7Ba2W03xoVKQ-aOQ_v_7HIZoiBGjqR1AH1k-JbGo84UceYCWyBFDTnwLSZAA1vjL49_U31RZF2azfRgfJZXa6zAHbnd682MDNP9co6XnXCxXehp6hq8QaJtN2xT5-5Jal6t2cBSz9WxRRNJz_Cs_E7UXmd3LBV6AJPMbCq5rH1ASSXXGJIc7VBVKd4_T5x5WVl8s0A8NAy7KDJR1y3WZuh2oFdO45gWGcmCJarBH1bpZiwAymZlTxuCkQAzmaXUE-UOyqst8buiB_JQhIpTFSGVtHSouO-Ebk5t6BbtbV3aRmx",
     "use": "sig",
-    "kid": "45b56dae216773306705f884311b87eb"
+    "kid": "8df7da8af0196bbc400ac10ab2854bad"
   };
 
-const incomingToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjQ1YjU2ZGFlMjE2NzczMzA2NzA1Zjg4NDMxMWI4N2ViIn0.eyJpc3MiOiJodHRwczovL2lkcC5sb2NhbCIsImF1ZCI6Im15X2NsaWVudF9hcHAiLCJzdWIiOiI1YmU4NjM1OTA3M2M0MzRiYWQyZGEzOTMyMjIyZGFiZSIsImV4cCI6MTY1ODgyMTcyMCwiaWF0IjoxNjU4ODIxNDIwfQ.B1LrglWMLsztJw-Nw1stgP1SQEgRYYyfV9K4HB7vsa_etpSvaYZ77VlucxmyyyMoCxaNVSx4f6NWD-QkkxGSdW1NWQ0fYJI2tcOPwSQ2eDYQJV0VKaDX4sHRLDjE7eujGCNv3yBwr0hF-LDhhbElET_wiKVfU_wsei5Qg6TAot_8QsqPEpkUSaa_KcJbRa5AYcCGgJ7NzkfXQC5RMw1NQz7mUhSckU-KIu6LicuNmrJSR11C3pbk5M6_yX6tvoMASAUbrIxvwAP3lOURhqH3ppx2YjgSMk4QvoVdGC1DqFMYfdv9pVaWLvv5AlG4FKdmNn04Rffx__HXNMpB8rKJpMxDE-IFU_pW5mBdJiMkbQZ1BmYswK6yct0crI-IDg4RVOy2XtW0l25TTE6lK3R12l9S9YhoaRAsqyNz3Z4mqJ2C-wfgKfaFPOvLAH4UdPJeg70Pe6yrOrH-bpCgNpGDTSFI0pdJEsth2h6HjjUFUQvU0dOJlgQ3bpIG4xiCU7-Q"
+const incomingToken = "eyfgsdfsghgfdsJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjhkZjdkYThhZjAxOTZiYmM0MDBhYzEwYWIyODU0YmFkIn0.eyJpc3MiOiJodHRwczovL2lkcC5sb2NhbCIsImF1ZCI6Im15X2NsaWVudF9hcHAiLCJzdWIiOiI1YmU4NjM1OTA3M2M0MzRiYWQyZGEzOTMyMjIyZGFiZSIsImV4cCI6MTY1ODgyODQ5MSwiaWF0IjoxNjU4ODI4MTkxfQ.bj9yyhK_2M3Ok42lX3mw4D1wGZo4oVl5-zqAT6B1PmE_QDrffclrZm0jnr6QPrQ1PDABkFKVVfh39KvdtxA_MZ2B9XcLI-tTlS06e0ti_C8QhibowZ_sxb9XsTwWuTyBpY9_Opl8zWCaLP3VmPPIHZ6_65AZqMjvkI275OrzHMJ5GNgk4DBLxE2hDP9tybZCqCIf-PLC2wVOB55NQ_K4xCwy6XFsJW7X35ZHQTq3dpSJ2Z_Tiba9_JDrGNgF_f-6btf3J3EWxgxZ4eQtD-8qRIEGw2CqhgfP6ahVoILzsH5Bn47GRjZ-geX06pQoHA7whTbAlUF2P2s0flR78M_Pqx-96WuZrshlygvHNMwbwWXPn32Ka_lovljMcFTwgRWSGUQDdNjF6IaAm0MLZXrajiCEHqcCaWuYgqiNpOXA-BwNd3_lXzmrRWarVt2P2CdoqqoM_GJ1U6XqX2jS5O4gO15xZ1Byt-9hRBMfdcDtvuc9y3wGYVJt6PpCqbpHqCDf"
 
 const mockedResponse = {
     data: {
@@ -34,7 +34,7 @@ function getJwkByKid(url, kid) {
   
     //Mock the response for the issuer
     // this matches the Keycloak url for the Keycloak's JWK
-    // issResponse = await axios(iss + "/protocol/openid-connect/certs");
+    // issResponse = await axios(iss);
     issResponse = mockedResponse;
   
     for (let index = 0; index < issResponse.data.keys.length; index++) {
